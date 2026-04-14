@@ -1,0 +1,8 @@
+s = "um tigre, dois tigres, tres tigres"
+p = 0
+# retornar todas as posicoes de tigre
+while (p > -1): # porq enao vai ter mais tigre
+    p = s.find("tigre", p)
+    print("posicao: ", p)
+    if p >= 0:
+        p = p + 1
