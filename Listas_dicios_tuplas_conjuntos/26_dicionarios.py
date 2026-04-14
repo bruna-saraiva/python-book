@@ -18,7 +18,6 @@ print("laranja" in tabela)
 # transformar as chaves em uma lista
 chaves = list(tabela.keys())
 print(chaves)
-# transforar os valores 
+# transformar os valores 
 valores = list(tabela.values())
-print(valores
-      )
+print(valores)
