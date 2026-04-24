@@ -1,7 +1,7 @@
 s = "um tigre, dois tigres, tres tigres"
 p = 0
 # retornar todas as posicoes de tigre
-while (p > -1): # porq enao vai ter mais tigre
+while (p > -1): # é -1 quando nao tiver mais tigre
     p = s.find("tigre", p)
     print("posicao: ", p)
     if p >= 0:
