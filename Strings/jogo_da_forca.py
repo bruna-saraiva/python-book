@@ -1,9 +1,11 @@
 # Jogo da forca ----------------------------------------------------------------------------
-
+import random
 # palavra = input("Insira a palavra do jogo da forca: ").lower().strip()
 palavras = ["ana", "roupeiro", "paralelepipedo", "helicoptero"]
-numero = int(input("escolha um numero: "))
-indice = (numero * 773) % len(palavras)
+# numero = int(input("escolha um numero: "))
+# indice = (numero * 773) % len(palavras)
+indice = random.randint(0,3)
+print(f"o indicie escolhido foi {indice}")
 palavra = palavras[indice]
 # for i in range(100):
 #     print("")
